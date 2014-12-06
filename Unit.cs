@@ -8,7 +8,7 @@ public  class Unit : MonoBehaviour {
 	public int CurrentHealth;		//Текущее количество жизней
 	public bool IsSelected;		//Выделение юнита для действий
 	public float Speed; //Скорость передвижения
-
+	public float Turnate; //Скорость поворота
 
 	// Use this for initialization
 	void Start () {
