@@ -12,13 +12,14 @@ public class HumanSwordsMan : SwordsMan {
 	}
 	// Use this for initialization
 	void Start () {
-		XCoord = transform.position.x;
-		YCoord = transform.position.y;
+		Coord = transform.position;
+		/*XCoord = transform.position.x;
+		YCoord = transform.position.y;*/
 		Speed = 5.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	//if (Input.mousePosition==
+	//if (Input.mousePosition==(
 	}
 }
