@@ -3,7 +3,9 @@ using System.Collections;
 
 public class GameMenu : MonoBehaviour 
 {
-
+	public GUISkin mainUI;
+	public int numDepth = 1;
+	public bool pause = false;
 
 	void start()
 	{
@@ -29,7 +31,14 @@ public class GameMenu : MonoBehaviour
 			if (GUI.Button(new Rect(0, 50, 150, 30), "Continue"))
 			    {
 					pause = false;
+			    }
+			if (GUI.Button(new Rect (0, 90, 150, 30), "Quit"))
+			    {
+					Application.Quit ();
+					Debug.Log("Exit");
 				}
+			GUI.EndGroup ();
+			
 
 		}
 
