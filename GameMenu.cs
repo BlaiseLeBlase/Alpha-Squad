@@ -2,7 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 public class GameMenu : MonoBehaviour 
-{
+{	
+	public GUISkin mainUI;
+	public int numDepth = 1;
+	public bool pause = false;
 
 
 	void start()
